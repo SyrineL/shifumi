@@ -4,9 +4,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Shifumi</title>
 </head>
 <body>
-    
+    <!-- Section Header ** -->
+    <div id="section-header">
+        <header>
+            
+            <h1>Shifumi</h1>
+        
+        </header>
+        
+    </div>
+
+
+
+    <section id="sectionmoi">
+        <h2>IA</h2>
+        <button onClick="ia()">IA</button>
+        <img id="noir">
+    </section>
+<section id="paragraphContainer"></section>
+    <section id="sectionmoi">
+        <h2>MOI</h2>
+        <button onClick="game('pierre')">Pierre</button>
+        <button onClick="game('feuille')">feuille</button>
+        <button onClick="game('ciseaux')">ciseaux</button>
+        <img id="blanc">
+        <div class="resultat">
+        </div>
+    </section>
+    <script src="index.js"></script> 
+
 </body>
 </html>
+
